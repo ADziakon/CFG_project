@@ -19,3 +19,12 @@ html{
 .logo{
 
 }
+.wrap-main{
+    /* display: flex;
+    justify-content:space-between;
+    align-items: center; */
+    padding: 50px 150px;
+}
+.wrap-footer{
+    padding: 50px 150px;
+}

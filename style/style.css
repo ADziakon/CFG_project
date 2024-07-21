@@ -25,6 +25,17 @@ html{
     align-items: center; */
     padding: 50px 150px;
 }
+.background{
+    height: 200px;
+}
+.home {
+    /* display: block; */
+    background-image: url("../img/background_3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: initial; */
+    height: 380px;
+}
 .wrap-footer{
     padding: 50px 150px;
 }

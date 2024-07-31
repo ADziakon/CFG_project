@@ -116,7 +116,16 @@ a {
     /* margin-top: 50px; */
     padding-top: 50px;
     padding-right: 20px;
-
+}
+.subtitle-home{
+    font-size: 24px;
+    color: #545454;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Mansalva', cursive;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
 }
 .subtitle{
     margin-bottom: 30px;
@@ -152,12 +161,32 @@ a {
     line-height: 0.6;
     font-family: 'Bangers', cursive;
     letter-spacing: 3px;
+}
 .podcasts {
     margin-bottom: 50px;
 }
-.contact {
+.contacts {
     margin-bottom: 50px;
 }
+.contact {
+    padding-bottom: 20px;
+}
+.contact-form{
+    max-width:50%;
+}
+.our-contact{
+    max-width:50%;
+}
+.contact-wrap{
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    align-items:center;
+}
+/* .social {
+    display: flex;
+    column-gap: 20px;
+} */
 .wrap-footer{
     padding: 50px 150px;
 }

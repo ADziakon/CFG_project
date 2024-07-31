@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Cinzel:400,700,900|Lato:100,300,400,700,900|Lobster|Lora:400,700|Mansalva|Muli:200,300,400,600,700,800,900|Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700|Roboto:100,300,400,500,700,900&display=swap');
+
 html{
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -16,8 +18,73 @@ html{
     height: 100px;
     padding: 15px 150px;
 }
-.logo{
+.logo-holder{
+    text-align:center;
+    padding-top: 13px;
+  }
+.logo-text-1, .logo-text-2 {
+    margin:0px;
+    padding:0px;
+}
 
+a {
+    text-decoration:none !important;
+}
+.logo{
+    display: flex;
+    column-gap: 10px;
+    align-items:center;
+}
+
+/* logo-text */
+.logo-text h3 {
+    color: #e84533;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 0.6;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 5px;
+}
+.logo-text p {
+    font-size: 16px;
+    margin-left: 0;
+    color: #545454;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: 'Mansalva', cursive;
+    position: relative;
+}
+.logo-text p:before {
+    position: absolute;
+    content: '';
+    width: 17px;
+    height: 12px;
+    background: #545454;
+    left: 0px;
+    top: 5px;
+}
+.logo-text p:after {
+    position: absolute;
+    content: '';
+    width: 17px;
+    height: 12px;
+    background: #545454;
+    right: 0px;
+    top: 5px;
+}
+
+.nav-item {
+    border: 1px solid #545454;
+    background-color: #545454;
+    border-radius: 10px;
+    margin: 5px;
+}
+.nav-link{
+    color: #FFF;
+}
+.nav-link:hover {
+    color: #a9a4a4;
 }
 .wrap-main{
     /* display: flex;
@@ -35,6 +102,20 @@ html{
     background-repeat: no-repeat;
     /* background-position: initial; */
     height: 380px;
+    margin-bottom: 50px;
+}
+.title {
+    color: #545454;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 0.6;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
+    text-align: right;
+    /* margin-top: 50px; */
+    padding-top: 50px;
+    padding-right: 20px;
+
 }
 .wrap-footer{
     padding: 50px 150px;

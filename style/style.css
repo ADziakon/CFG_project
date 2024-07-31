@@ -29,6 +29,7 @@ html{
 
 a {
     text-decoration:none !important;
+    color:#FFF;
 }
 .logo{
     display: flex;
@@ -90,7 +91,7 @@ a {
     /* display: flex;
     justify-content:space-between;
     align-items: center; */
-    padding: 50px 150px;
+    padding: 30px 150px;
 }
 .background{
     height: 200px;
@@ -116,6 +117,46 @@ a {
     padding-top: 50px;
     padding-right: 20px;
 
+}
+.subtitle{
+    margin-bottom: 30px;
+}
+.about {
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.guides {
+    margin-bottom: 50px;
+}
+.card-wrap {
+    width: 300px;
+    position:relative;
+}
+
+.card-footer{
+    /* background-color:#a9a4a4; */
+    margin-top: -90px;
+    opacity: 0.8;
+    color: #000;
+    border: 0;
+    
+}
+.card-footer:hover {
+    color:#FFF;
+    background-color:#a9a4a4;
+}
+.card-title{
+    padding-top: 10px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 0.6;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
+.podcasts {
+    margin-bottom: 50px;
+}
+.contact {
+    margin-bottom: 50px;
 }
 .wrap-footer{
     padding: 50px 150px;

@@ -170,12 +170,13 @@ a {
 }
 .contact {
     padding-bottom: 20px;
+    column-gap: 50px;
 }
 .contact-form{
-    max-width:50%;
+    max-width:30%;
 }
 .our-contact{
-    max-width:50%;
+    max-width:70%;
 }
 .contact-wrap{
     display: flex;

@@ -155,6 +155,9 @@ a {
     display: flex;
     column-gap:50px;
 }
+.about-img{
+    max-width: 70%;
+}
 .guides {
     margin-bottom: 50px;
 }

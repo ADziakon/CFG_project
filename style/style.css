@@ -151,6 +151,10 @@ a {
     margin-bottom: 50px;
     font-family: 'Roboto', sans-serif;
 }
+.wrap-about{
+    display: flex;
+    column-gap:50px;
+}
 .guides {
     margin-bottom: 50px;
 }

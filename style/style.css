@@ -158,6 +158,11 @@ a {
 .about-img{
     max-width: 70%;
 }
+.podcast-img{
+    max-width: 50%;
+    display: block;
+}
+
 .guides {
     margin-bottom: 50px;
 }

@@ -10,7 +10,7 @@
     <title>Inspire to travel</title>
 </head>
 <body>
-    <header>
+    <header class="container">
         <div class="wrap-header">
             <div class="logo">
                 <img src="./img/logo.png" class="image_logo" alt="Picture logo" width="50" height="46">
@@ -44,7 +44,7 @@
         </div>
         
     </header>
-    <main class="wrap-main">
+    <main class="wrap-main container">
         <section class="home" id="home">
             <h1 class="title right">Inspire to travel</h1>
             <h2 class="subtitle-home right">Invest in travel and memories from your trips</h2>
@@ -54,12 +54,24 @@
         </section>
         <section class="about" id="about">
             <h2 class="subtitle">About our service</h2>
-            <p class="info">
-                One way you can plan for your next vacation is by listening to travel podcasts. You can also learn about places you might want to visit, or you can experience the destination if you’re unable to go there. We spoke to travel experts to find out which podcasts are worth listening to, especially if you are stuck waiting at the airport.
-            </p>
-            <p class="info">
-                We then spoke to the podcasters to learn more about their shows. The podcasts can be found on most major platforms. Here are the ones the experts recommend.
-            </p>
+            <div class="wrap-about">
+                
+                <div class="wrap-text-about">
+                    <h4 class="title-about">I am Akana Dziakanchuk! Welcome to my project.</h4>
+                    <h5>Main goal:</h5> 
+                    <p class="info">
+                        One way you can plan for your next vacation is by listening to travel podcasts. You can also learn about places you might want to visit, or you can experience the destination if you’re unable to go there. We spoke to travel experts to find out which podcasts are worth listening to, especially if you are stuck waiting at the airport.
+                    </p>
+                    <h5>Services:</h5>
+                    <p class="info">
+                        We then spoke to the podcasters to learn more about their shows. The podcasts can be found on most major platforms. Here are the ones the experts recommend.
+                    </p>
+                </div>
+                <div class="wrap-image">
+                    <img src="./img/me.jpg" class="about-img rounded-circle img-fluid img-thumbnail" alt="picture">
+                </div>
+            </div>
+
         </section>
         <section class="guides" id="guides">
             <h2 class="subtitle">Discover new places</h2>
@@ -118,7 +130,20 @@
             <h2 class="subtitle">Podcast</h2>
             <div class="podcasts-wrap">
                 
-
+                <div class="row">
+                    <div class="col">
+                        <img src="./img/me.jpg" class="about-img rounded-circle img-fluid img-thumbnail" alt="picture">
+                    </div>
+                    <div class="col">
+                      <h2 class="podcast-title">Travel Diary</h2>
+                      <h4 class="author">Aksana Dziakanchuk</h4>
+                      <h5 class="author">About podcast:</h5>
+                      <p class="desc-podcast">
+                        Talking about my travel experience, I have 40+ countries, several continents, and expatriation. Here are my thoughts on how travel has changed me and what I look for in travel. how I manage to travel a lot and why I go somewhere so often. What I like most about traveling and what I don't like very much. Also, I want to inspire everyone to travel, 
+                        to dream about various unexplored places, and to gradually realize their dreams.
+                        </p>
+                    </div>
+                  </div>
             </div>
         </section>
         <section class="contacts" id="contacts">
@@ -203,7 +228,7 @@
 
     </main>
 
-    <footer class="footer wrap-footer">
+    <footer class="footer wrap-footer container">
         <div class="wrapper">
             <div class = "footer__wrapper">
                 <div class= "footer__github">

@@ -151,11 +151,18 @@ a {
     margin-bottom: 50px;
     font-family: 'Roboto', sans-serif;
 }
+.wrap-about{
+    display: flex;
+    column-gap:50px;
+}
+.about-img{
+    max-width: 70%;
+}
 .guides {
     margin-bottom: 50px;
 }
 .card-wrap {
-    width: 300px;
+    width: 200px;
     position:relative;
 }
 
